@@ -11,40 +11,6 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%   INSTRUCTIONS: 
-%   Play with the learning rate, learningRateDecay, and
-%   learningRateDecayFrequency to see how it affects the convergence rate.  
-%   The error is displayed in the console and in a plot.
-%
-%   (1) Start with the learning rate at 0.2
-%   Run this program 10 times.  
-%   Watch how the shape of the error can change.  Sometimes the NN is more
-%   effective than other runs.
-%   Most of the time the err should reduce to something like 0.05.  It 
-%   "converges" to an optimal solution.  When it does converge, the 
-%   prediction is 100% correct (since we put a threshold layer on the NN 
-%   when we get to "test").
-%   Some of the time, the err will NOT converge.  The err may end up 
-%   anywhere from ~50 - 100%.  This is because of the weights (they are
-%   randomly initialized each run) and possibly because of the input data
-%   (which is also randomly initialized each run).
-%   (2) Tweak the learning rate.  Try 0.01, 0.2, and 0.5.  Find a
-%   learning rate where sometimes the NN converges and sometimes it does
-%   not.
-%   (3) Tweak the learningRateDecay, and learningRateDecayFrequency.  See
-%   what you can learn.
-%
-%   A few takeaways from this:
-%   (a) Sometimes you get lucky and the solution converges quickly.
-%   Sometimes you get unlucky and the solution converges slowly.  
-%   (b) Slightly tweaking the learningRate, learningRateDecay, and
-%   learningRateDecayFrequency can significanly impact the rate of
-%   convergence!
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %% FRONT MATTER
 % clear variables/terminal
 clc;
